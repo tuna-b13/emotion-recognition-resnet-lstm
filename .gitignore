@@ -1,0 +1,20 @@
+# Large data folders — not pushed to repo
+data/ravdess_raw/
+data/raw_videos/
+data/processed_faces/
+data/manuel_test/videos/
+
+# Per-epoch model checkpoints — too large
+models/resnet_lstm_epoch_*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
