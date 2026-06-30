@@ -1,6 +1,6 @@
-# Emotion Recognition — ResNet18 + LSTM
+# Emotion Recognition  ResNet18 + LSTM
 
-*Individual contribution to a CE903 group project — University of Essex*
+*Individual contribution to a CE903 group project  University of Essex*
 
 Video-based facial emotion recognition using a ResNet18 + LSTM architecture, trained on the RAVDESS dataset.
 
@@ -22,7 +22,7 @@ This repo contains **my individual contribution**: the ResNet18 + LSTM model, bu
 
 The model recognises 5 emotions from video clips by extracting facial frames and modelling temporal patterns across the sequence.
 
-- **Architecture:** Pretrained ResNet18 (feature extraction) + 2-layer LSTM (temporal modelling)
+- **Architecture:** Pretrained ResNet18 (feature extraction) + 2 layer LSTM (temporal modelling)
 - **Dataset:** RAVDESS — 24 actors, speech and song modality
 - **Classes:** neutral, happy, sad, angry, fearful
 - **Validation Accuracy:** 77.6% (576 videos)
